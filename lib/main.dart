@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Profile Saya'),
+          title: Text('Developer Profile'),
           centerTitle: true,
           leading: Icon(
             Icons.favorite,
@@ -74,7 +74,7 @@ class TextWeb extends StatelessWidget {
       child: Text(
         'https://debly.cc',
         style: TextStyle(
-          color: Colors.blue,
+          color: Colors.blue[300],
           fontSize: 20,
         ),
       ),
@@ -89,6 +89,15 @@ class RowCardOne extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.blue[50],
+                blurRadius: 8.0,
+                spreadRadius: 1.0,
+              ),
+            ],
+          ),
           width: 150,
           margin: const EdgeInsets.only(top: 20.0),
           child: Card(
@@ -111,6 +120,15 @@ class RowCardOne extends StatelessWidget {
           ),
         ),
         Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.blue[50],
+                blurRadius: 8.0,
+                spreadRadius: 1.0,
+              ),
+            ],
+          ),
           width: 150,
           margin: const EdgeInsets.only(top: 20.0),
           child: Card(
@@ -144,6 +162,15 @@ class RowCardTwo extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: <Widget>[
         Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.blue[50],
+                blurRadius: 8.0,
+                spreadRadius: 1.0,
+              ),
+            ],
+          ),
           width: 150,
           margin: const EdgeInsets.only(top: 20.0),
           child: Card(
@@ -166,6 +193,15 @@ class RowCardTwo extends StatelessWidget {
           ),
         ),
         Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.blue[50],
+                blurRadius: 8.0,
+                spreadRadius: 1.0,
+              ),
+            ],
+          ),
           width: 150,
           margin: const EdgeInsets.only(top: 20.0),
           child: Card(
